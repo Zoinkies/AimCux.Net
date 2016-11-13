@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sudo ./uload
+cmake .
+make -j 12
+sudo ./load
